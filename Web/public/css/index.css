@@ -1,0 +1,41 @@
+video {
+	vertical-align:top;
+	max-width:300px;
+	max-height:250px;
+	padding:0;
+	display: inline-block;
+	/*Mirrors the video streams*/
+	transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+}
+
+#wrapper{
+	width:950px;
+	margin:0 auto;
+	padding:0;
+	text-align: center;
+	font-family: Helvetica, Arial;
+}
+
+.clear {
+	width:950px;
+}
+
+
+p {
+	padding:0;
+	margin:0;
+	height:25px;
+}
+
+#box0 {
+	border: 5px solid #555;
+	width:290px;
+	height:220px;
+}
+
+
+a{
+	color:#E68308;
+}
